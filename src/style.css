@@ -35,6 +35,16 @@ header {
     margin-left: 10px;
     border-radius: 6px;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-form-button:hover {
+    background-color: rgb(10, 95, 71);
+    transform: scale(1.05);
+}
+.search-form-button:active {
+    background-color: rgb(7, 51, 39);
 }
 
 main {
